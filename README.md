@@ -33,4 +33,4 @@ JavaScript is powerful: we're able to take user interaction and information and 
 
 Take a look at what your final product should look like before and after:
 
-![Deliverable](https://www.dropbox.com/s/34x7y8pe0ynjekz/citipix.gif?dl=0)
+![deliverable](https://www.dropbox.com/s/34x7y8pe0ynjekz/citipix.gif?dl=0)

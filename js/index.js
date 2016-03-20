@@ -7,28 +7,29 @@ $(function(){
     // Create entry variable
     var entry;
     // Get entry from form and store as variable entry
-    entry = $("#city-type").val();
+    entry = $("#city-type").val().toLowerCase();
 
+    alert(entry);
     // use logic to figure out which city the entry is
     // set the background of the page to the appropriate picture
 
-    if (entry === "New York" || entry === "New York City" || entry === "NYC") {
+    if (entry === "new york" || entry === "new york city" || entry === "nyc") {
       $("body").css("background","url(images/nyc.jpg)");
     }
 
-    else if (entry === "San Francisco" || entry === "SF" || entry === "Bay Area") {
+    else if (entry === "san francisco" || entry === "sf" || entry === "bay area") {
       $("body").css("background","url(images/sf.jpg)");
     }
 
-    else if (entry === "Los Angeles" || entry === "LA" || entry === "LAX") {
+    else if (entry === "los angeles" || entry === "la" || entry === "lax") {
       $("body").css("background","url(images/la.jpg)");
 
     }
-    else if (entry === "Austin" || entry === "ATX") {
+    else if (entry === "austin" || entry === "atx") {
       $("body").css("background","url(images/austin.jpg)");
     }
 
-    else if (entry === "Sydney" || entry === "SYD") {
+    else if (entry === "sydney" || entry === "syd") {
       $("body").css("background","url(images/sydney.jpg)");
     }
     // in case entry is not one of our covered cities, display citipix_skyline.jpg

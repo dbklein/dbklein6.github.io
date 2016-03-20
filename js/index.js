@@ -4,6 +4,7 @@ $(function(){
 
   function swapPic(event){
     event.preventDefault();
+    // Create entry variable
     var entry;
     // Get entry from form and store as variable entry
     entry = $("#city-type").val();

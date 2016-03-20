@@ -9,32 +9,31 @@ $(function(){
     // Get entry from form and store as variable entry
     entry = $("#city-type").val().toLowerCase();
 
-    alert(entry);
     // use logic to figure out which city the entry is
     // set the background of the page to the appropriate picture
 
     if (entry === "new york" || entry === "new york city" || entry === "nyc") {
-      $("body").css("background","url(images/nyc.jpg)");
+      $("body").addClass("nyc")
     }
 
     else if (entry === "san francisco" || entry === "sf" || entry === "bay area") {
-      $("body").css("background","url(images/sf.jpg)");
+      $("body").addClass("sf")
     }
 
     else if (entry === "los angeles" || entry === "la" || entry === "lax") {
-      $("body").css("background","url(images/la.jpg)");
+      $("body").addClass("la")
 
     }
     else if (entry === "austin" || entry === "atx") {
-      $("body").css("background","url(images/austin.jpg)");
+      $("body").addClass("austin")
     }
 
     else if (entry === "sydney" || entry === "syd") {
-      $("body").css("background","url(images/sydney.jpg)");
+      $("body").addClass("sydney")
     }
     // in case entry is not one of our covered cities, display citipix_skyline.jpg
     else {
-      $("body").css("background","url(images/citipix_skyline.jpg)");
+      $("body").addClass("citipix-skyline");
     };
 
   }

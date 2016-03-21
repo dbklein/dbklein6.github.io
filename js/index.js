@@ -4,6 +4,8 @@ $(function(){
 
   function swapPic(event){
     event.preventDefault();
+    // Remove class from body tag
+    $("body").removeClass()
     // Create entry variable
     var entry;
     // Get entry from form and store as variable entry
@@ -34,6 +36,7 @@ $(function(){
     // in case entry is not one of our covered cities, display citipix_skyline.jpg
     else {
       $("body").addClass("citipix-skyline");
+
     };
 
   }

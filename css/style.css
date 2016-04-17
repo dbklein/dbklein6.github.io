@@ -40,9 +40,28 @@ body {
 /*******************************************/
 
 nav {
-    height: 50px;
-
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: bold;
 }
+
+.logo {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+.topNavOrderButton {
+  height: 60px;
+  width: 150px;
+  font-size: 1.4em;
+  background-color: pink;
+  border-radius: .2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
 
 header {
   background-image: url("../images/nyc.jpg");
@@ -56,7 +75,7 @@ header {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 3.5em;
   line-height: 1.2;
 }

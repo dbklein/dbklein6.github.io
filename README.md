@@ -5,7 +5,8 @@ David Klein
 
 ---
 
-Layout:
+###Layout
+
 * Top nav bar with logo at left and order prints button at right
 ** Order prints button links to order prints section
 ** Sticky nav, position fixed
@@ -24,3 +25,19 @@ Layout:
 ** Submits using formspree.io
 
 * Footer with copywright info
+
+<br>
+
+---
+
+###Potential Refactors
+
+* Photo objects
+** Organize all photos into an array of objects
+** Each has a URL and caption
+** Iterate over the array to append a div for all photos
+
+* Secret uploader page
+** Add additional photos to the array of photo objects
+** /addphoto.html
+

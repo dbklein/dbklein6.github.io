@@ -39,6 +39,49 @@ body {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+nav {
+    height: 50px;
 
+}
 
+header {
+  background-image: url("../images/nyc.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 17%;
+  font-size: 1.6vw;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3.5em;
+  line-height: 1.2;
+}
+
+.gallery {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  width: 400px;
+  height: 225px;
+  border: 2px solid #FFFFFF;
+  background: lightgray;
+}
+
+footer {
+  height: 50px;
+  background-color: darkgray;
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 

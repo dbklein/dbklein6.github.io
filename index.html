@@ -28,43 +28,50 @@
 			<div class="orderPrintsButton">Order Gear</div>
 		</section>
 		<section class="orderForm">
-			<ul>
-				<form action="#">
-					<label for="customer">Name</label>
-		      <input type="text" name="customer" placeholder="Name" />
-
-					<label for="email">Email</label>
-					<input type="email" name="email" placeholder="Email" />
-
-					<label for="address1">Address Line 1</label>
-		      <input type="text" name="address1" placeholder="Address Line 1" />
-
-					<label for="address2">Address Line 2</label>
-		      <input type="text" name="address2" placeholder="Address Line 2" />
-
-					<label for="gear">Gear</label>
-		      <select name="gear">
-		      	<option value="gear1" selected>gear 1</option>
-		      	<option value="gear2">gear 2</option>
-		      	<option value="gear3">gear 3</option>
-		      </select>
-
-		      <label for="size">Size</label>
-		      <input type="radio" name="size" value="small" checked> Small
-		      <input type="radio" name="size" value="medium"> Medium
-		      <input type="radio" name="size" value="large"> Large
-
-					<label for="comments">Comments / Concerns</label>
-					<textarea name="comments" rows="3" cols="40" placeholder="Any special requests?"></textarea>
-
-					<label for="terms">
-						<input type="checkbox" name="terms">
-						I've read the terms and conditions
-					</label>
-
+			<form action="#">
+				<ul>
+					<li>
+						<label for="customer">Name</label>
+		      	<input type="text" name="customer" placeholder="Name" />
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" name="email" placeholder="Email" />
+					</li>
+					<li>
+						<label for="address1">Address Line 1</label>
+		      	<input type="text" name="address1" placeholder="Address Line 1" />
+					</li>
+					<li>
+						<label for="address2">Address Line 2</label>
+		      	<input type="text" name="address2" placeholder="Address Line 2" />
+					</li>
+					<li>
+						<label for="gear">Gear</label>
+		      	<select name="gear">
+			      	<option value="gear1" selected>gear 1</option>
+			      	<option value="gear2">gear 2</option>
+			      	<option value="gear3">gear 3</option>
+		      	</select>
+					</li>
+		      <li>
+		      	<label for="size">Size</label>
+		      	<input type="radio" name="size" value="small" checked> Small
+		      	<input type="radio" name="size" value="medium"> Medium
+		      	<input type="radio" name="size" value="large"> Large
+					<li>
+						<label for="comments">Tell us why you are worthy.</label>
+						<textarea name="comments" rows="3" cols="40" placeholder="Here's why I'm the best."></textarea>
+					</li>
+					<li>
+						<label for="terms">
+							<input type="checkbox" name="terms">
+							I agree to the terms.
+						</label>
+					</li>
 		      <button type="submit">Place Order</button>
-				</form>
-			</ul>
+				</ul>
+			</form>
 		</section>
 		<footer>
 			© Motorcycle Wristguards 2016.

@@ -74,6 +74,25 @@ h1 {
   background: lightgray;
 }
 
+.orderPrintsButtonPanel {
+  height: 100px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderPrintsButton {
+  height: 60px;
+  width: 150px;
+  font-size: 1.4em;
+  background-color: white;
+  border-radius: .2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   height: 50px;
   background-color: darkgray;

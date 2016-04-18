@@ -9,8 +9,6 @@ David Klein
 
 * Top nav bar with logo at left and order prints button at right
 ** Order prints button links to order prints section
-** Sticky nav, position fixed
-** JS function to expand order form
 
 * Header with full width background image and centered h1
 

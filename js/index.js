@@ -8,11 +8,14 @@ $(function(){
 
   function updateSelectedItemCount() {
     var selectedItems = $('.selected').length
-    if (selectedItems === 1) {
-      $('.numberOfItemsSelected').text(selectedItems + " item selected");
+    if (selectedItems === 0) {
+      $('.numberOfItemsSelected').text("Click on a piece of gear to add it to your order.");
+    }
+    else if (selectedItems === 1) {
+      $('.numberOfItemsSelected').text("Order: " + selectedItems + " item");
     }
     else {
-      $('.numberOfItemsSelected').text(selectedItems + " items selected");
+      $('.numberOfItemsSelected').text("Order: " + selectedItems + " items");
     };
 
   };

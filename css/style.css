@@ -81,7 +81,6 @@ h1 {
 }
 
 .gallery {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -89,17 +88,22 @@ h1 {
 
 .thumbnail {
   width: 32%;
-  height: 300px;
+  cursor: pointer;
+  height: 240px;
   margin-bottom: 20px;
   border: 2px solid #FFFFFF;
   background: lightgray;
+}
+
+.gallery label input[type="checkbox"] {
+  display: none;
 }
 
 .selected {
   border: 10px solid yellow;
 }
 
-.chooseGear {
+#chooseGear {
   height: 70px;
   background-color: white;
   display: flex;

@@ -8,32 +8,47 @@
 	<body>
 		<nav>
 			<div class="logo">Motorcycle Wristguards</div>
-			<div class="topNavOption">Order Gear</div>
-
+			<a href="#chooseGear"><div class="topNavOption">Order Gear</div></a>
 		</nav>
 		<header>
 			<h1>Motorcycle<br>Wristguards</h1>
 		</header>
-		<section class="chooseGear">
+		<section id="chooseGear">
 			<h2>Choose your gear</h2>
 		</section>
-		<section class="gallery">
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
-		</section>
-		<section class="orderFormHeader">
-			<h2>Order</h2>
-		</section>
+
 		<section class="orderForm">
-			<!-- <ul class="cart">
-				<p>Cart:</p>
-				<li class="cartItem">Gear 1</li>
-			</ul> -->
 			<form action="https://formspree.io/dbklein6@gmail.com" method="POST">
+
+				<section class="gallery">
+					<label for="item" class="thumbnail">
+						<input type="checkbox" name="thumbnail" value="gear1">
+						<div></div> <!-- Placeholder for thumbnail image -->
+					</label>
+					<label for="item" class="thumbnail">
+						<input type="checkbox" name="thumbnail" value="gear2">
+						<div></div> <!-- Placeholder for thumbnail image -->
+					</label>
+					<label for="item" class="thumbnail">
+						<input type="checkbox" name="thumbnail" value="gear3">
+						<div></div> <!-- Placeholder for thumbnail image -->
+					</label>
+					<label for="item" class="thumbnail">
+						<input type="checkbox" name="thumbnail" value="gear4">
+						<div></div> <!-- Placeholder for thumbnail image -->
+					</label>
+					<label for="item" class="thumbnail">
+						<input type="checkbox" name="thumbnail" value="gear5">
+						<div></div> <!-- Placeholder for thumbnail image -->
+					</label>
+					<label for="item" class="thumbnail">
+						<input type="checkbox" name="thumbnail" value="gear6">
+						<div></div> <!-- Placeholder for thumbnail image -->
+					</label>
+				</section>
+				<section class="orderFormHeader">
+					<h2>Order: <span class="numberOfItemsSelected">0 items selected</span></h2>
+				</section>
 				<ul>
 					<li>
 						<label for="customer">Name</label>

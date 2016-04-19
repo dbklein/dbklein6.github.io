@@ -140,9 +140,15 @@ h1 {
 }
 
 .caption {
-  background-color: pink;
+  height: 0;
+  overflow: hidden;
+}
+
+.slideDown {
   height: 40px;
+  background-color: pink;
   padding: 12px 10px;
+
 }
 
 a {

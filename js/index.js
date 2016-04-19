@@ -6,6 +6,11 @@ $(function(){
     // need to check the checkbox in the input so that it shows up on formspree
   });
 
+  // show caption on hover
+  $('.thumbnail').hover(function(){
+    $(this).find('.caption').toggleClass('slideDown');
+  });
+
   // show number of items selected in the order below the gallery
   function updateSelectedItemCount() {
     var selectedItems = $('.selected').length

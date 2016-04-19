@@ -1,0 +1,6 @@
+{
+  "name": "Fewd80final",
+  "tagline": "final project for FEWD80",
+  "body": "#FEWD80 Final Project\r\nDavid Klein\r\n\r\n<br>\r\n\r\n---\r\n\r\n###Layout\r\n\r\n* Top nav bar with logo at left and order prints button at right\r\n** Order prints button links to order prints section\r\n\r\n* Header with full width background image and centered h1\r\n\r\n* Gallery of photos below 3 across\r\n** Can be responsive to 2 across and 1 across and narrower widths\r\n** JS to on hover insert a p tag with the caption on the bottom of the photo\r\n\r\n* Order prints button\r\n\r\n* Order form section\r\n** JS to expand accordion style and show order form on click\r\n** Submits using formspree.io\r\n\r\n* Footer with copywright info\r\n\r\n<br>\r\n\r\n---\r\n\r\n###Potential Refactors\r\n\r\n* Photo objects\r\n** Organize all photos into an array of objects\r\n** Each has a URL and caption\r\n** Iterate over the array to append a div for all photos\r\n\r\n* Secret uploader page\r\n** Add additional photos to the array of photo objects\r\n** /addphoto.html\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
